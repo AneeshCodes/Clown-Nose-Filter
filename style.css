@@ -1,0 +1,31 @@
+h3
+{
+  font-size: 30px !important;
+}
+
+.btn-success:hover
+{
+  background-color: rgb(21, 182, 0);
+}
+
+canvas
+{
+  border-style: dashed;
+  margin-top: 25px;
+  animation-name: shadow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shadow
+{
+  from
+  {
+    box-shadow: 2px 2px 50px red;
+  }
+
+  to
+  {
+    box-shadow: 2px 2px 50px yellow
+  }
+}
